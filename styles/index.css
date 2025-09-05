@@ -7,13 +7,13 @@
     font-size: 30px;
     line-height: 48px;
     letter-spacing: -0.02em;
-    color: #0A1B32;
-    
+    color: #0A1B32;    
 }
 
 .logo-dot{
     color: #A3DC00;
 }
+
 section{
     display: inline-block;  
 }
@@ -44,14 +44,11 @@ section{
     line-height: 32px;
     letter-spacing: 0.02em;
     color: #9A9A9A; 
-
 }
 
 .learn-more-btn{   
     width: 152px;
     height: 64px;
-
-
     margin-top: 50px;
     margin-left: 200px;
     background-color: #A3DC00;
@@ -65,8 +62,14 @@ section{
     letter-spacing: 0.02em;
     color: #FFFFFF;
     border: none;    
+    }
 
+.learn-more-btn:hover{
+    cursor:pointer
+    background-color: #red;
+    color: #14f25d;
 }
+    
 
 
    
